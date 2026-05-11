@@ -1,3 +1,8 @@
+"""
+Implements the exhaustive search over the 2^b options per patch, detailed in the subsection "Tampering Detection with a Spatial Test." under the Method section. 
+The detection algorithm remains otherwise the same, with thresholds tau and nmatch
+"""
+
 from PIL import Image, ImageFilter
 import torch
 from transformers import Blip2Processor, Blip2ForConditionalGeneration

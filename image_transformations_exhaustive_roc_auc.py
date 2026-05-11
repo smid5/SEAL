@@ -1,3 +1,7 @@
+"""
+Same as image_transformations_exhaustive_tpr.py, but instead reports ROC AUC
+"""
+
 from PIL import Image, ImageFilter
 import torch
 from transformers import Blip2Processor, Blip2ForConditionalGeneration

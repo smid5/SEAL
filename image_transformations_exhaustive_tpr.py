@@ -1,3 +1,7 @@
+"""
+Implements exhaustive search, but instead of using a fixed threshold for the number of matching patches to report the detction accuracy, we report the TPR@1%FPR.
+"""
+
 from PIL import Image, ImageFilter
 import torch
 from transformers import Blip2Processor, Blip2ForConditionalGeneration
